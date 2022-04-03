@@ -9,7 +9,7 @@
 - Bài 4 : [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Swap_Nodes_in_Pairs)
 - Bài 5 : [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Remove_Duplicates_from_Sorted_List)
 - Bài 6 : [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Merge_Two_Sorted_Lists)
-- Bài 7 : [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) [(**Solution**)]()
+- Bài 7 : [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Intersection_of_Two_Linked_Lists)
 - Bài 8 : [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) [(**Solution**)]()
 - Bài 9 : [LRU_Cache](https://leetcode.com/problems/lru-cache/) [(**Solution**)]()
 - Bài 10 : [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [(**Solution**)]()
