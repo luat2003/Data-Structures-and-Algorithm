@@ -1,0 +1,30 @@
+// Code bằng chuỗi | Linked List có thể sẽ update sau
+class Solution {
+public:
+    string removeKdigits(string num, int k) {
+        string res = "";
+        // Thuật toán :
+        // một chuỗi A ta muốn xoá một ký tự để nó là nhỏ nhất
+        // -> Tìm vị trí i đầu tiên mà A[i] > A[i+1] và ta xoá A[i]
+        // Khi đó A -> B = A[1:(i-1)] + A[i+1->hết]
+        // Xét chuỗi khác Nếu xoá ptu từ 1->i-1 -> A[1:x-1] + A[x+1->hết]
+        // Ta có A[x+1] >= A[x] -> B nhỏ hơn chuỗi này
+        // Tương tự nếu xoá ptu từ i+1->hết -> A[1:i-1] + A[i:x-1] + A[x+1->hết]
+        // Do A[i] > A[i+1] -> B nhỏ hơn ptu này
+        
+        for(int i = 0; i < num.size(); i++){
+            // Nếu còn có thể xoá và 
+            while(k > 0 && res.size() && res.back() > num[i]){
+                res.pop_back();
+                k--;
+            }
+            if( res.size() || num[i] != '0'){
+                res.push_back(num[i]);
+            }
+        }
+        while( res.size() && k-- ){
+            res.pop_back();
+        }
+        return (res == "")?"0":res;
+    }
+};
