@@ -3,7 +3,7 @@
 #### Giảng viên : Vũ Đức Minh
 ## Bài tập 3 
 ### Bài tập Leetcode
-- Bài 1 : [Design Linked List](https://leetcode.com/problems/design-linked-list/) [(**Solution**)]()
+- Bài 1 : [Design Linked List](https://leetcode.com/problems/design-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Linked_List)
 - Bài 2 : [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Delete_Node_In_A_Linked_List)
 - Bài 3 : [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Remove_Nth_Node_From_End_of_List)
 - Bài 4 : [Rotate List](https://leetcode.com/problems/rotate-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Rotate_List)
