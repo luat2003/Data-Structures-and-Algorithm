@@ -12,5 +12,7 @@ public:
         // Đẩy node lên node kế tiếp
         node->val=node->next->val; 
         node->next=node->next->next;
+        // Hoăc
+        *node = *(node->next);
     }
 };
