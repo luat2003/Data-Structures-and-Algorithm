@@ -1,0 +1,84 @@
+#include<bits/stdc++.h>
+class LRUCache {
+public:
+    class Node{
+                public:
+                int key;
+                int val;
+                Node*next;
+                Node*prev;
+                
+                Node(int Key1 , int Val1){
+                       key = Key1;
+                        val = Val1;
+                }
+        };
+        
+        Node* head = new Node(-1 , -1);
+        Node* tail = new Node(-1 , -1);
+        
+        
+        int size;
+		
+        unordered_map<int ,Node*> mp;
+		
+        LRUCache(int capacity) {
+        size = capacity;
+            head->next = tail;
+            tail->prev = head;
+    }
+    
+        void DelNode( Node* tempNode){
+                Node* prev = tempNode->prev;
+                Node* forward = tempNode->next;
+                
+                
+                prev->next= forward;
+                forward->prev = prev;
+        }
+        
+        void InsNode(Node* tempNode){
+                Node* temp = head->next;
+                tempNode->next = temp;
+                tempNode->prev = head;
+                head->next = tempNode;
+                temp->prev = tempNode;
+                
+        }
+    int get(int key) {
+        
+            if(mp.find(key)!=mp.end()){
+                    Node* dummy = mp[key];
+                    int val = dummy->val;
+                    mp.erase(key);
+                    DelNode(dummy);
+                    InsNode(dummy);
+                    
+                    mp[key] = head->next;
+                    
+                    return val;
+            }
+            return -1;
+    }
+    
+    void put(int key, int value) {
+        if(mp.find(key)!=mp.end()){
+                Node* dummy = mp[key];
+                mp.erase(key);
+                DelNode(dummy);
+        }
+            if(mp.size()==size){
+                    mp.erase(tail->prev->key);
+                    DelNode(tail->prev);
+            }
+            InsNode(new Node(key , value));
+            mp[key] = head->next;
+    }
+};
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
