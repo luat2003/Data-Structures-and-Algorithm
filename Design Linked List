@@ -1,0 +1,100 @@
+class MyLinkedList {
+   public:
+    int val;
+    MyLinkedList* next;
+    MyLinkedList* head;
+    MyLinkedList() {
+        head = NULL;
+    }
+    // Lấy node ở chỉ số index
+    int get(int index) {
+        int cnt = 0;
+        MyLinkedList* tmp = head;
+        while (cnt < index && tmp != NULL) {
+            cnt++;
+            tmp = tmp->next;
+        }
+        if (cnt == index && tmp != NULL) {
+            return tmp->val;
+        } else {
+            return -1;
+        }
+    }
+    // Thêm một node vào đầu
+    void addAtHead(int val) {
+        MyLinkedList* tmp = new MyLinkedList();
+        tmp->val = val;
+        tmp->next = head;
+        head = tmp;
+    }
+    // Thêm một node vào cuối
+    void addAtTail(int val) {
+        MyLinkedList* tmp = new MyLinkedList();
+        if (head == NULL) {
+            tmp->val = val;
+            tmp->next = NULL;
+            head = tmp;
+        } else {
+            tmp = head;
+            while (tmp->next != NULL) {
+                tmp = tmp->next;
+            }
+            MyLinkedList* tail = new MyLinkedList();
+            tail->val = val;
+            tail->next = NULL;
+            tmp->next = tail;
+        }
+    }
+    // Thêm một node vào chỉ số index
+    void addAtIndex(int index, int val) {
+        MyLinkedList* tmp = new MyLinkedList();
+        if (index == 0) {
+            tmp->val = val;
+            tmp->next = head;
+            head = tmp;
+        }else{
+            tmp = head;
+            MyLinkedList* now = tmp;
+            int cnt = 0;
+            while (cnt != index && tmp != NULL) {
+                now = tmp;
+                tmp = tmp->next;
+                cnt++;
+            }
+            if( index == cnt ){
+                MyLinkedList* node = new MyLinkedList();
+                node->val = val;
+                node->next = tmp;
+                now->next = node;
+            }
+        }
+    }
+    // Xoá node tại chỉ số index
+    void deleteAtIndex(int index) {
+        if (index == 0) {
+            head = head->next;
+        }else{
+            int cnt = 0;
+            MyLinkedList* tmp = head;
+            MyLinkedList* now = tmp;
+            while (cnt != index && tmp != NULL) {
+                cnt++;
+                now = tmp;
+                tmp = tmp->next;
+            }
+            if( tmp != NULL && index == cnt ){
+                now->next = tmp->next;
+            }
+        }
+    }
+};
+
+/**
+ * Your MyLinkedList object will be instantiated and called as such:
+ * MyLinkedList* obj = new MyLinkedList();
+ * int param_1 = obj->get(index);
+ * obj->addAtHead(val);
+ * obj->addAtTail(val);
+ * obj->addAtIndex(index,val);
+ * obj->deleteAtIndex(index);
+ */
