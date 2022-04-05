@@ -13,6 +13,6 @@ public:
         node->val=node->next->val; 
         node->next=node->next->next;
         // Hoăc
-        *node = *(node->next);
+        // *node = *(node->next);
     }
 };
