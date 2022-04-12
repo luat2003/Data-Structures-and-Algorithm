@@ -20,4 +20,5 @@
 - Bài 15 : [Maximum Twin Of Sum Of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Maximum_Twin_Sum_of_a_Linked_List)
 - Bài 16 : [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Reverse_Linked_List_II)
 - Bài 17 : [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Remove_K_Digits)
-- Bài 17 : [Design Browser History](https://leetcode.com/problems/design-browser-history/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Browser_History)
+- Bài 19 : [Design Browser History](https://leetcode.com/problems/design-browser-history/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Browser_History)
+- Bài 20 : [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Flatten_a_Multilevel_Doubly_Linked_List)
