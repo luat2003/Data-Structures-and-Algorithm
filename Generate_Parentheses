@@ -1,0 +1,24 @@
+class Solution {
+public:
+    // Đệ quy, l là số ngoặc mở, r là số ngoặc đúng
+    void build(int l,int r, int n, string str, vector<string> &ans, string c){
+        // Nếu l = r = n thì ta được một dãy ngoặc đúng
+        if(l == n && r == n){
+            str += c;
+            ans.push_back(str);
+            return ;
+        }
+        // Nếu số ngoặc đúng và mở vượt quá n hoặc số ngoặc đóng lớn hơn số ngoặc mở
+        if(l > n || r > n || l < r){
+            return ;
+        }
+        str += c;
+        build(l+1, r, n, str, ans, "(");
+        build(l, r+1, n, str, ans, ")");
+    }
+    vector<string> generateParenthesis(int n) {
+        vector<string> ans;
+        build(0, 0, n, "", ans, "");
+        return ans;
+    }
+};
