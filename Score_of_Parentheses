@@ -6,6 +6,7 @@ public:
         // Duyệt dãy ngoặc
         // Nếu thấy ngoặc mở, thì số lần nhân 2 sẽ tăng
         // Nếu thấy ngoặc đóng và trước đó là ngoặc mở thì một bộ ngoặc đúng liên tiếp sẽ được tính 
+        // (Vì dãy ngoặc là đúng nên có đủ số ngoặc đóng đằng sau)
         // Bộ ngoặc đúng liên tiếp : ((((...)))) = 2^(số ngoặc mở)
         for(int i = 0; i < s.size(); i++){
             if( s[i] == '('){
