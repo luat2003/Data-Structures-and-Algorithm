@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int minAddToMakeValid(string s) {
+        int sum = 0;
+        int res = 0;
+        // Coi như ngoặc mở là 1, đóng là -1
+        // Nếu thiếu ngoặc mở, tức tổng hiện tại âm
+        // -> thêm một ngoặc mở
+        // Đến cuối nếu dư ngoặc mở, thì thêm số ngoặc đóng bằng số dư đó
+        for(int i = 0; i < s.size(); i++){
+            if( s[i] == '('){
+                sum++;
+            }else{
+                sum--;
+                if( sum < 0 ){
+                    res++;
+                    sum++;
+                }
+            }
+        }
+        return sum+res;
+    }
+};
