@@ -1,0 +1,29 @@
+class Solution {
+public:
+    int sumSubarrayMins(vector<int>& arr) {
+        const int modulo = 1e9+7;
+        stack<pair<int,int>> st;
+        int res = 0;
+        int S[arr.size()]; // S[i] : Tổng min các dãy con bắt đầu từ vị trí i
+        // S[i] = arr[i]*(Số dãy con bắt đầu từ i mà arr[i] là min) + S[vị trí đầu tiên nhỏ hơn arr[i]]
+        for(int i = arr.size()-1;i >= 0;i--) {
+            while(!st.empty() && st.top().first > arr[i]) {
+                st.pop();
+            }
+            if(st.empty()) {
+                S[i] = arr[i]*((int)arr.size()-i);
+            } else {
+                S[i] = (arr[i]*(st.top().second-i) + S[st.top().second]);
+                if( S[i] >= modulo ){
+                    S[i] -= modulo;
+                }
+            }
+            res += S[i];
+            if( res >= modulo ){
+                res -= modulo;
+            }
+            st.push({arr[i], i});
+        }
+        return res;
+    }
+};
