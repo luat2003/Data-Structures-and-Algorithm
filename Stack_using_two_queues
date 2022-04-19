@@ -1,0 +1,37 @@
+/* The structure of the class is
+class QueueStack{
+private:
+    queue<int> q1;
+    queue<int> q2;
+public:
+    void push(int);
+    int pop();
+};
+ */
+
+//Function to push an element into stack using two queues.
+void QueueStack :: push(int x)
+{
+        // Your Code
+        QueueStack::q1.push(x);
+}
+
+//Function to pop an element from stack using two queues. 
+int QueueStack :: pop()
+{
+        // Your Code  
+        if( QueueStack::q1.empty() ){
+            return -1;
+        }
+        while( QueueStack::q1.size() > 1 ){
+            QueueStack::q2.push(QueueStack::q1.front());
+            QueueStack::q1.pop();
+        }
+        int val = QueueStack::q1.front();
+        QueueStack::q1.pop();
+        while( !QueueStack::q2.empty() ){
+            QueueStack::q1.push(QueueStack::q2.front());
+            QueueStack::q2.pop();
+        }
+        return val;
+}
