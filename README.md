@@ -41,3 +41,22 @@
 - Bài 13 : [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Next_Greater_Node_In_Linked_List)
 - Bài 14 : [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Sum_of_Subarray_Minimums)
 - Bài 15 : [Online Stock Span](https://leetcode.com/problems/online-stock-span/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Online_Stock_Span)
+
+## Bài tập 5 : Queue
+### Bài tập Leetcode
+- Bài 1 : [Implement Queue using array ](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Build_an_Array_With_Operations)
+- Bài 2 : [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Min_Stack)
+- Bài 3 : [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Validate_Stack_Sequences)
+- Bài 4 : [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/0/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Evaluate_Reverse_Polish_Notation)
+- Bài 5 : [Reverse First K elements of Queue](https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Basic_Calculator)
+- Bài 6 : [Queue Reversal](https://practice.geeksforgeeks.org/problems/queue-reversal/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Valid_Parentheses)
+- Bài 7 : [Queue Push & Pop](https://practice.geeksforgeeks.org/problems/queue-designer/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Remove_Outermost_Parentheses)
+- Bài 8 : [Queue Operations](https://practice.geeksforgeeks.org/problems/queue-operations/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Minimum_Add_to_Make_Parentheses_Valid)
+- Bài 9 : [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Generate_Parentheses)
+- Bài 10 : [C++ STL | Set 5 (queue)](https://practice.geeksforgeeks.org/problems/c-stl-set-5-queue/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Score_of_Parentheses)
+- Bài 11 : [Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/0/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Next_Greater_Element_I)
+- Bài 12 : [Generate Binary Numbers](https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/0/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Next_Greater_Element_II)
+- Bài 13 : [Deque Implementations](https://practice.geeksforgeeks.org/problems/deque-implementations/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Next_Greater_Node_In_Linked_List)
+- Bài 14 : [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Sum_of_Subarray_Minimums)
+- Bài 15 : [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Online_Stock_Span)
+- Bài 16 : [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Online_Stock_Span)
