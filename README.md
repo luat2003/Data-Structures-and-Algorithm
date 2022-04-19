@@ -44,7 +44,7 @@
 
 ## Bài tập 5 : Queue
 ### Bài tập Leetcode
-- Bài 1 : [Implement Queue using array ](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Build_an_Array_With_Operations)
+- Bài 1 : [Implement Queue using array ](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Implement_Queue_using_array)
 - Bài 2 : [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Min_Stack)
 - Bài 3 : [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Validate_Stack_Sequences)
 - Bài 4 : [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/0/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Evaluate_Reverse_Polish_Notation)
