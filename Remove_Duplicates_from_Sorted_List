@@ -11,18 +11,14 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode* now = head;
-        // Biến kiểm tra
-        vector<bool> check(300,false);
-        while( now != NULL){
-            check[100 + now->val] = true; // +100 để tránh âm
-            // Nếu giá trị tại node now->next đã xuất hiện
-            // thì sẽ xoá node now->next (tịnh tiến node)
-            while( now->next != NULL && check[100 + now->next->val] ){
-                now->next = now->next->next;
+        ListNode* headNd = head;      
+        while(head && head->next) {
+            if(head->val == head->next->val) {
+               head->next = head->next->next; 
+            } else {
+                head = head->next;
             }
-            now = now->next;
         }
-        return head;
+        return headNd;
     }
 };
