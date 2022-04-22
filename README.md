@@ -26,7 +26,7 @@
 
 ## Bài tập 4 : Stack
 ### Bài tập Leetcode
-- Bài 1 : [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Build_an_Array_With_Operations)
+- Bài 1 : [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Build_an_Array_With_Stack_Operations)
 - Bài 2 : [Min Stack](https://leetcode.com/problems/min-stack/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Min_Stack)
 - Bài 3 : [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Validate_Stack_Sequences)
 - Bài 4 : [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Evaluate_Reverse_Polish_Notation)
