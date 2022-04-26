@@ -59,4 +59,4 @@
 - Bài 13 : [Deque Implementations](https://practice.geeksforgeeks.org/problems/deque-implementations/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Deque_Implementations)
 - Bài 14 : [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Circular_Queue)
 - Bài 15 : [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Number_of_Recent_Calss)
-- Bài 16 : [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Online_Stock_Span)
+- Bài 16 : [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Front_Middle_Back_Queue)
