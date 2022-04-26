@@ -1,0 +1,92 @@
+class FrontMiddleBackQueue {
+public:
+    // 2 deque lưu trữ đầu và cuối của front back queue
+    deque<int> front, back;
+    bool checkSize(){
+        return front.size() || back.size();
+    }
+    void checkFront() {
+        if(front.size() > back.size()) {
+            back.push_front(front.back());
+            front.pop_back();
+        }
+        return;
+    }
+    void checkBack() {
+        if(back.size() > front.size()+1) {
+            front.push_back(back.front());
+            back.pop_front();
+        }
+        return;
+    }
+    
+    FrontMiddleBackQueue() {
+        
+    }
+    
+    void pushFront(int val) {
+        front.push_front(val);
+        checkFront();
+    }
+    
+    void pushMiddle(int val) {
+        front.push_back(val);
+        checkFront();
+    }
+    
+    void pushBack(int val) {
+        back.push_back(val);
+        checkBack();
+    }
+    
+    int popFront() {
+        int ans = -1;
+        if( front.size() > 0 ) {
+            ans = front.front();
+            front.pop_front();
+            checkBack();
+        } else if( back.size() > 0 ) {
+            ans = back.front();
+            back.pop_front();
+        }
+        return ans;
+    }
+    
+    int popMiddle() {
+        int ans = -1;
+        if( !checkSize() ) {
+            return ans;
+        }
+        if( front.size() == back.size() ) {
+            ans = front.back();
+            front.pop_back();
+        } else {
+            ans = back.front();
+            back.pop_front();
+        }
+        
+        return ans;
+    }
+    
+    int popBack() {
+        int ans = -1;
+        if( !checkSize() ) {
+            return ans;
+        }
+        ans = back.back();
+        back.pop_back();
+        checkFront();
+        return ans;
+    }
+};
+
+/**
+ * Your FrontMiddleBackQueue object will be instantiated and called as such:
+ * FrontMiddleBackQueue* obj = new FrontMiddleBackQueue();
+ * obj->pushFront(val);
+ * obj->pushMiddle(val);
+ * obj->pushBack(val);
+ * int param_4 = obj->popFront();
+ * int param_5 = obj->popMiddle();
+ * int param_6 = obj->popBack();
+ */
