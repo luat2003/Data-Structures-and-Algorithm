@@ -1,0 +1,36 @@
+//User function Template for C++
+
+/* A binary tree node has data, pointer to left child
+   and a pointer to right child  
+struct Node
+{
+    int data;
+    struct Node* left;
+    struct Node* right;
+}; */
+
+//Function to return a list containing the postorder traversal of the tree.
+vector <int> postOrder(Node* root)
+{
+  // Your code here
+  vector<int> res;
+  stack<Node*> st;
+  st.push(root);
+  while( !st.empty() ){
+      Node* tmp = st.top();
+      if( tmp-> left == NULL && tmp->right == NULL){
+          res.push_back(tmp->data);
+          st.pop();
+          continue;
+      }
+      if( tmp->right != NULL ){
+          st.push(tmp->right);
+          tmp->right = NULL;
+      }
+      if( tmp->left != NULL ){
+          st.push(tmp->left);
+          tmp->left = NULL;
+      }
+  }
+  return res;
+}
