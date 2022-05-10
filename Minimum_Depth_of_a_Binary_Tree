@@ -1,0 +1,38 @@
+/* The Node structure is
+struct Node
+{
+    int data;
+    Node* left;
+    Node* right;
+}; */
+
+class Solution{
+  public:
+    /*You are required to complete this method*/
+    int minDepth(Node *root) {
+        // Your code here
+        if( root == NULL ){
+            return 0;
+        }
+        int cnt = 0;
+        queue<Node*> q;
+        q.push(root);
+        while( !q.empty() ){
+            int n = q.size();
+            cnt++;
+            while(n--){
+                Node* tmp = q.front();
+                q.pop();
+                if( tmp->left ){
+                    q.push(tmp->left);
+                }
+                if( tmp->right ){
+                    q.push(tmp->right);
+                }
+                if( !(tmp->left) && !(tmp->right)){
+                    return cnt;
+                }
+            }
+        }
+    }
+};
