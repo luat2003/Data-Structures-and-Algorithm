@@ -65,7 +65,7 @@
 - Bài 1 : [Preorder Traversal](https://practice.geeksforgeeks.org/problems/preorder-traversal/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Preorder_Traversal)
 - Bài 2 : [Postorder Traversal](https://practice.geeksforgeeks.org/problems/postorder-traversal/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Postorder_Traversal)
 - Bài 3 : [Inorder Traversal](https://practice.geeksforgeeks.org/problems/inorder-traversal/1#) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Inorder_Traversal)
-- Bài 4 : [Height of Binary Tree](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Rotate_List)
+- Bài 4 : [Height of Binary Tree](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Height_of_Binary_Tree)
 - Bài 5 : [Level order traversal](https://practice.geeksforgeeks.org/problems/level-order-traversal/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Swap_Nodes_in_Pairs)
 - Bài 6 : [Level order traversal in spiral form](https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Remove_Duplicates_from_Sorted_List)
 - Bài 7 : [Count Leaves in Binary Tree](https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Merge_Two_Sorted_Lists)
