@@ -1,0 +1,30 @@
+    bool isCompleteBT(Node* root){
+        //code here
+        if( root == NULL){
+            return true;
+        }
+        queue<Node*> q;
+        q.push(root);
+        bool check = false;
+        while( !q.empty() ){
+            Node *tmp = q.front();
+            q.pop();
+            if(tmp->left){
+                if(check){
+                    return false;
+                }
+                q.push(tmp->left);
+            }else{
+                check = true;
+            }
+            if(tmp->right){
+                if(check){
+                    return false;
+                }
+                q.push(tmp->right);
+            }else{
+                check = true;
+            }
+        }
+        return true;
+    }
