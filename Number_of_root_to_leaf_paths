@@ -1,0 +1,42 @@
+/*  Tree node
+struct Node
+{
+    int data;
+    Node* left, * right;
+}; */
+
+/*You are required to complete below method */
+void pathCounts(Node *root)
+{
+    //Your code here
+    if( root == NULL ){
+        return;
+    }
+    int cnt[1005];
+    memset(cnt, 0, sizeof(cnt));
+    queue<Node*> q;
+    q.push(root);
+    int h = 0;
+    while( !q.empty()){
+        int n = q.size();
+        h++;
+        while(n--){
+            Node* tmp = q.front();
+            q.pop();
+            if( tmp->left ){
+                q.push(tmp->left);
+            }
+            if( tmp->right ){
+                q.push(tmp->right);
+            }
+            if( !(tmp->left) && !(tmp->right)){
+                cnt[h]++;
+            }
+        }
+    }
+    for(int i = 1; i <= 1000; i++){
+        if( cnt[i] > 0 ){
+            cout << i << " " << cnt[i] << " $";
+        }
+    }
+}
