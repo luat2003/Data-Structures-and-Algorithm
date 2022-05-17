@@ -1,0 +1,40 @@
+/* A binary tree node has data, pointer to left child
+   and a pointer to right child /
+struct Node
+{
+    int data;
+    Node* left;
+    Node* right;
+}; */
+
+// function should print the nodes at k distance from root
+vector<int> Kdistance(struct Node *root, int k)
+{
+  // Your code here
+  if( root == NULL ){
+      return {};
+  }
+  vector<int> res;
+  int cnt = 0;
+  queue<Node*> q;
+  q.push(root);
+  while( !q.empty() && cnt < k){
+      int n = q.size();
+      while( n-- ){
+          Node* tmp = q.front();
+          q.pop();
+          if( tmp->left ){
+              q.push(tmp->left);
+          }
+          if( tmp->right ){
+              q.push(tmp->right);
+          }
+      }
+      cnt++;
+  }
+  while( !q.empty() ){
+      res.push_back(q.front()->data);
+      q.pop();
+  }
+  return res;
+}
