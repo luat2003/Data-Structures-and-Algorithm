@@ -80,4 +80,4 @@
 - Bài 16 : [Number of root to leaf paths](https://practice.geeksforgeeks.org/problems/number-of-root-to-leaf-paths/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Number_of_root_to_leaf_paths)
 - Bài 17 : [Diameter of a Binary Tree](https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Diameter_of_a_Binary_Tree)
 - Bài 18 : [Print all nodes that don't have sibling](https://practice.geeksforgeeks.org/problems/print-all-nodes-that-dont-have-sibling/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Print_all_nodes_that_don't_have_sibling)
-- Bài 19 : [K distance from root](https://practice.geeksforgeeks.org/problems/k-distance-from-root/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Browser_History)
+- Bài 19 : [K distance from root](https://practice.geeksforgeeks.org/problems/k-distance-from-root/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/K_distance_from_root)
