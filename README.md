@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithm
 #### Nhóm 6 
-#### Giảng viên : Vũ Đức Minh
+#### Tutor : Dr. Vu Duc Minh
 ## Bài tập 3 : Linked List
 ### Bài tập
 - Bài 1 : [Design Linked List](https://leetcode.com/problems/design-linked-list/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Linked_List)
@@ -85,7 +85,7 @@
 - Bài 19 : [K distance from root](https://practice.geeksforgeeks.org/problems/k-distance-from-root/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/K_distance_from_root)
 ## Bài tập 7 : Binary Search Tree
 ### Bài tập
-- Bài 1 : [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1/)) [(**Solution**)]()
+- Bài 1 : [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1/) [(**Solution**)]()
 - Bài 2 : [Inorder Traversal and BST](https://practice.geeksforgeeks.org/problems/inorder-traversal-and-bst5855/1/) [(**Solution**)]()
 - Bài 3 : [Median of BST](https://practice.geeksforgeeks.org/problems/median-of-bst/1/) [(**Solution**)]()
 - Bài 4 : [Search a node in BST](https://practice.geeksforgeeks.org/problems/search-a-node-in-bst/1/) [(**Solution**)]()
@@ -107,3 +107,13 @@
 - Bài 20 : [AVL Tree Insertion](https://practice.geeksforgeeks.org/problems/avl-tree-insertion/1/) [(**Solution**)]()
 - Bài 21 : [AVL Tree Deletion](https://practice.geeksforgeeks.org/problems/avl-tree-deletion/1/) [(**Solution**)]()
 - Bài 22 : [Normal BST to Balanced BST](https://practice.geeksforgeeks.org/problems/normal-bst-to-balanced-bst/1/) [(**Solution**)]()
+## Bài tập 7 : Hash Table
+### Bài tập
+- Bài 1 : [C++ STL| Set 8 (unordered set)](https://practice.geeksforgeeks.org/problems/c-stl-set-8-unordered-set/1/) [(**Solution**)]()
+- Bài 2 : [C++ STL| Set 7 (unordered map)](https://practice.geeksforgeeks.org/problems/c-stl-set-7-unordered-map/1/) [(**Solution**)]()
+- Bài 3 : [Design HashSet](https://leetcode.com/problems/design-hashset/) [(**Solution**)]()
+- Bài 4 : [Design HashMap](https://leetcode.com/problems/design-hashmap/) [(**Solution**)]()
+- Bài 5 : [Difference between highest and lowest occurrence](https://practice.geeksforgeeks.org/problems/difference-between-highest-and-lowest-occurrence4613/1) [(**Solution**)]()
+- Bài 6 : [Find unique element](https://practice.geeksforgeeks.org/problems/find-unique-element2632/1/) [(**Solution**)]()
+- Bài 7 : [Non Repeating Character](https://practice.geeksforgeeks.org/problems/non-repeating-character-1587115620/1/) [(**Solution**)]()
+- Bài 8 : [Repeated Character](https://practice.geeksforgeeks.org/problems/repeated-character2058/1/) [(**Solution**)]()
