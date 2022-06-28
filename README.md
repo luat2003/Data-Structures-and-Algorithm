@@ -62,7 +62,7 @@
 - Bài 16 : [Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Design_Front_Middle_Back_Queue)
 - Bài 17 : [Make Binary Tree From Linked List](https://practice.geeksforgeeks.org/problems/make-binary-tree/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Make_Binary_Tree_From_Linked_List)
 - Bài 18 : [Complete Binary Tree](https://practice.geeksforgeeks.org/problems/complete-binary-tree/1/) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Complete_Binary_Tree)
-## Bài tập 6 : Trees
+## Bài tập 6 : Binary Tree
 ### Bài tập
 - Bài 1 : [Preorder Traversal](https://practice.geeksforgeeks.org/problems/preorder-traversal/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Preorder_Traversal)
 - Bài 2 : [Postorder Traversal](https://practice.geeksforgeeks.org/problems/postorder-traversal/1) [(**Solution**)](https://github.com/luat2003/Data-Structures-and-Algorithm/blob/main/Postorder_Traversal)
